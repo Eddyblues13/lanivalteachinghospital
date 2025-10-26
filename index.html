@@ -30,9 +30,12 @@
   "@context": "https://schema.org",
   "@type": "Hospital",
   "name": "Lanival Teaching Hospital",
-  "image": "https://lanivalteachinghospital.com/images/logo.jpg",
+  "description": "Leading healthcare provider and medical education institution in India. Comprehensive medical services, advanced treatments, and world-class medical education.",
   "url": "https://lanivalteachinghospital.com/",
-  "telephone": "+91 820 2922201",
+  "logo": "https://lanivalteachinghospital.com/images/logo.jpg",
+  "image": "https://lanivalteachinghospital.com/images/hero-hospital.jpg",
+  "telephone": "+91-820-2922201",
+  "email": "info@lanivalteachinghospital.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "123 Medical Center Road",
@@ -41,22 +44,44 @@
     "postalCode": "576104",
     "addressCountry": "IN"
   },
-  "sameAs": [
-    "https://www.facebook.com/lanivalteachinghospital",
-    "https://www.instagram.com/lanivalteachinghospital",
-    "https://www.linkedin.com/company/lanivalteachinghospital"
+  "openingHours": [
+    "Mo-Su 00:00-23:59"
   ],
   "department": [
-    {"@type": "MedicalDepartment", "name": "Cardiology"},
-    {"@type": "MedicalDepartment", "name": "Neurology"},
-    {"@type": "MedicalDepartment", "name": "Pediatrics"}
+    {
+      "@type": "Hospital",
+      "name": "Emergency Department",
+      "openingHours": "Mo-Su 00:00-23:59"
+    },
+    {
+      "@type": "Hospital",
+      "name": "Outpatient Department",
+      "openingHours": "Mo-Su 08:00-20:00"
+    }
   ],
   "medicalSpecialty": [
     "Cardiology",
     "Neurology",
+    "Pediatrics",
     "Orthopedics",
     "Pulmonology",
     "Ophthalmology"
+  ],
+  "hasCredential": [
+    "NABH Accredited",
+    "MCI Recognized",
+    "ISO 9001:2015 Certified"
+  ],
+  "founder": {
+    "@type": "Person",
+    "name": "Dr. S. N. Rao"
+  },
+  "foundingDate": "1990",
+  "numberOfEmployees": "1000",
+  "sameAs": [
+    "https://www.facebook.com/lanivalteachinghospital",
+    "https://www.instagram.com/lanivalteachinghospital",
+    "https://www.linkedin.com/company/lanivalteachinghospital"
   ]
 }
 </script>

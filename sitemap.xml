@@ -11,7 +11,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://lanivalteachinghospital.com/about</loc>
+    <loc>https://lanivalteachinghospital.com/about.html</loc>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- Services Page -->
   <url>
-    <loc>https://lanivalteachinghospital.com/services</loc>
+    <loc>https://lanivalteachinghospital.com/services.html</loc>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,10 +27,12 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://lanivalteachinghospital.com/contact</loc>
+    <loc>https://lanivalteachinghospital.com/contact.html</loc>
     <lastmod>2025-10-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
 </urlset>
+
+
