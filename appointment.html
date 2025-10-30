@@ -1,49 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- ============================================ -->
+<!-- APPOINTMENT PAGE HEAD SECTION -->
+<!-- ============================================ -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Appointment - Lanival Teaching Hospital</title>
-      <meta name="description" content="Lanival Teaching Hospital provides world-class healthcare, medical education, and community health services. Discover quality care and training at Lanival.">
-  <meta name="keywords" content="Lanival, Lanival Teaching Hospital, Lanival Hospital, medical school, healthcare in Nigeria, teaching hospital, hospital in Lagos, medical care, health services, training doctors">
-
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Lanival Teaching Hospital | Excellence in Healthcare and Medical Education">
-  <meta property="og:description" content="Lanival Teaching Hospital offers medical training and top-quality healthcare services for all. Learn more about our programs and services.">
-  <meta property="og:url" content="https://lanivalteachinghospital.com/">
-  <meta property="og:site_name" content="Lanival Teaching Hospital">
-  <meta property="og:image" content="https://lanivalteachinghospital.com/images/lanival-banner.jpg"> <!-- replace with your banner image -->
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Lanival Teaching Hospital">
-  <meta name="twitter:description" content="Providing exceptional healthcare and medical education at Lanival Teaching Hospital.">
-  <meta name="twitter:image" content="https://lanivalteachinghospital.com/images/lanival-banner.jpg">
-
-  <!-- Favicon -->
-  <link rel="icon" href="https://lanivalteachinghospital.com/images/logo.jpg" type="image/x-icon">
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://lanivalteachinghospital.com/">
-
-  <!-- Additional SEO -->
-  <meta name="author" content="Lanival Teaching Hospital">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-    <meta name="description" content="Book your medical appointment online with Lanival Teaching Hospital specialists.">
+    <title>Book Appointment Online - Lanival Teaching Hospital | Schedule Doctor Consultation</title>
     
-    <!-- Bootstrap CSS -->
+    <!-- Enhanced Meta Tags -->
+    <meta name="description" content="Book your medical appointment online at Lanival Teaching Hospital. Choose from 50+ specialist doctors, select convenient time slots, easy online booking system. Call +91-820-2922202 for assistance.">
+    <meta name="keywords" content="book doctor appointment online, hospital appointment Karnataka, consult specialist, medical consultation, doctor booking Lanival, online appointment system">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Book Appointment - Lanival Teaching Hospital">
+    <meta property="og:description" content="Schedule your consultation with expert doctors. Easy online booking available.">
+    <meta property="og:url" content="https://lanivalteachinghospital.com/appointment.html">
+    <meta property="og:site_name" content="Lanival Teaching Hospital">
+    <meta property="og:image" content="https://lanivalteachinghospital.com/images/appointment-booking.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Book Appointment - Lanival Teaching Hospital">
+    <meta name="twitter:description" content="Schedule your consultation online or call +91-820-2922202">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://lanivalteachinghospital.com/appointment.html">
+
+    <!-- Additional SEO -->
+    <meta name="author" content="Lanival Teaching Hospital">
+    <meta name="robots" content="index, follow">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lanivalteachinghospital.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Book Appointment",
+          "item": "https://lanivalteachinghospital.com/appointment.html"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Medical Business Appointment Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Lanival Teaching Hospital - Appointment Booking",
+      "description": "Online appointment booking system for medical consultations with specialist doctors",
+      "url": "https://lanivalteachinghospital.com/appointment.html",
+      "telephone": "+91-820-2922202",
+      "email": "appointments@lanivalteachinghospital.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Medical Center Road",
+        "addressLocality": "Lanival",
+        "addressRegion": "Karnataka",
+        "postalCode": "576104",
+        "addressCountry": "IN"
+      },
+      "openingHours": "Mo-Su 08:00-20:00",
+      "acceptsReservations": "True",
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://lanivalteachinghospital.com/appointment.html",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        },
+        "result": {
+          "@type": "Reservation",
+          "name": "Medical Appointment"
+        }
+      }
+    }
+    </script>
+
+    <!-- Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Medical Appointment Booking",
+      "provider": {
+        "@type": "Hospital",
+        "name": "Lanival Teaching Hospital",
+        "url": "https://lanivalteachinghospital.com/"
+      },
+      "areaServed": {
+        "@type": "State",
+        "name": "Karnataka"
+      },
+      "availableChannel": [
+        {
+          "@type": "ServiceChannel",
+          "serviceUrl": "https://lanivalteachinghospital.com/appointment.html",
+          "servicePhone": "+91-820-2922202",
+          "availableLanguage": ["English", "Hindi", "Kannada"]
+        }
+      ],
+      "termsOfService": "https://lanivalteachinghospital.com/terms.html"
+    }
+    </script>
+
+    <!-- Medical Specialties Available -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Available Medical Specialties for Appointment",
+      "itemListElement": [
+        {
+          "@type": "MedicalSpecialty",
+          "position": 1,
+          "name": "Cardiology",
+          "url": "https://lanivalteachinghospital.com/appointment.html?dept=cardiology"
+        },
+        {
+          "@type": "MedicalSpecialty",
+          "position": 2,
+          "name": "Neurology",
+          "url": "https://lanivalteachinghospital.com/appointment.html?dept=neurology"
+        },
+        {
+          "@type": "MedicalSpecialty",
+          "position": 3,
+          "name": "Pediatrics",
+          "url": "https://lanivalteachinghospital.com/appointment.html?dept=pediatrics"
+        },
+        {
+          "@type": "MedicalSpecialty",
+          "position": 4,
+          "name": "Orthopedics",
+          "url": "https://lanivalteachinghospital.com/appointment.html?dept=orthopedics"
+        },
+        {
+          "@type": "MedicalSpecialty",
+          "position": 5,
+          "name": "General Medicine",
+          "url": "https://lanivalteachinghospital.com/appointment.html?dept=general"
+        }
+      ]
+    }
+    </script>
+</head>
+
+
+<!-- ============================================ -->
+<!-- CAREERS PAGE HEAD SECTION -->
+<!-- ============================================ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers & Jobs at Lanival Teaching Hospital | Join Our Healthcare Team</title>
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="images/images/logo.jpg">
+    <!-- Enhanced Meta Tags -->
+    <meta name="description" content="Explore career opportunities at Lanival Teaching Hospital. Current openings for doctors, nurses, lab technicians, and administrative staff. Competitive salary, professional growth, work-life balance. Apply now.">
+    <meta name="keywords" content="hospital jobs Karnataka, medical careers, doctor jobs, nursing jobs, healthcare employment, hospital recruitment, medical staff vacancies Lanival">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Careers at Lanival Teaching Hospital">
+    <meta property="og:description" content="Join our team of healthcare professionals. Current job openings available.">
+    <meta property="og:url" content="https://lanivalteachinghospital.com/careers.html">
+    <meta property="og:site_name" content="Lanival Teaching Hospital">
+    <meta property="og:image" content="https://lanivalteachinghospital.com/images/careers-banner.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Careers - Lanival Teaching Hospital">
+    <meta name="twitter:description" content="Join our healthcare team. Current job openings available.">
+    <meta name="twitter:image" content="https://lanivalteachinghospital.com/images/careers-banner.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://lanivalteachinghospital.com/careers.html">
+
+    <!-- Additional SEO -->
+    <meta name="author" content="Lanival Teaching Hospital">
+    <meta name="robots" content="index, follow">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lanivalteachinghospital.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Careers",
+          "item": "https://lanivalteachinghospital.com/careers.html"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Job Posting Schema - Senior Consultant Cardiology -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "Senior Consultant - Cardiology",
+      "description": "Experienced Senior Consultant in Cardiology to lead cardiac care unit and provide expert consultation for complex cardiac cases. MD/DM in Cardiology with 8+ years experience required.",
+      "datePosted": "2025-01-13",
+      "validThrough": "2025-03-31",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Hospital",
+        "name": "Lanival Teaching Hospital",
+        "sameAs": "https://lanivalteachinghospital.com/",
+        "logo": "https://lanivalteachinghospital.com/images/logo.jpg"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Medical Center Road",
+          "addressLocality": "Lanival",
+          "addressRegion": "Karnataka",
+          "postalCode": "576104",
+          "addressCountry": "IN"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "minValue": 1500000,
+          "maxValue": 2500000,
+          "unitText": "YEAR"
+        }
+      },
+      "qualifications": "MD/DM in Cardiology with 8+ years of experience",
+      "responsibilities": "Lead cardiac care unit, provide expert consultation for complex cases, perform interventional procedures",
+      "educationRequirements": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree"
+      },
+      "experienceRequirements": {
+        "@type": "OccupationalExperienceRequirements",
+        "monthsOfExperience": 96
+      }
+    }
+    </script>
+
+    <!-- Job Posting Schema - Staff Nurse ICU -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JobPosting",
+      "title": "Staff Nurse - ICU",
+      "description": "Dedicated Staff Nurses to join ICU team, providing critical care to patients with life-threatening conditions. B.Sc Nursing or GNM with 2+ years ICU experience required.",
+      "datePosted": "2025-01-10",
+      "validThrough": "2025-03-31",
+      "employmentType": "FULL_TIME",
+      "hiringOrganization": {
+        "@type": "Hospital",
+        "name": "Lanival Teaching Hospital",
+        "sameAs": "https://lanivalteachinghospital.com/"
+      },
+      "jobLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "123 Medical Center Road",
+          "addressLocality": "Lanival",
+          "addressRegion": "Karnataka",
+          "postalCode": "576104",
+          "addressCountry": "IN"
+        }
+      },
+      "baseSalary": {
+        "@type": "MonetaryAmount",
+        "currency": "INR",
+        "value": {
+          "@type": "QuantitativeValue",
+          "minValue": 300000,
+          "maxValue": 500000,
+          "unitText": "YEAR"
+        }
+      },
+      "qualifications": "B.Sc Nursing or GNM with valid registration and 2+ years ICU experience"
+    }
+    </script>
+
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Lanival Teaching Hospital",
+      "url": "https://lanivalteachinghospital.com/careers.html",
+      "logo": "https://lanivalteachinghospital.com/images/logo.jpg",
+      "description": "Leading healthcare employer offering careers in medicine, nursing, allied health, and hospital administration",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 1000
+      },
+      "knowsAbout": [
+        "Healthcare Employment",
+        "Medical Careers",
+        "Nursing Jobs",
+        "Hospital Administration"
+      ]
+    }
+    </script>
 </head>
 <body>
     <!-- Navigation -->
